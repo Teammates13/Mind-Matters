@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to right,#ebf4f5, #a1f5a8);
+}
+
+.title{
+    text-align: center;
+    align-items: center;
+}
+.pic1{
+    width: 300px;
+    height: 300px;
+}
+.pic2{
+    width: 300px;
+    height: 300px;
+}
+.pic3{
+    width: 300px;
+    height: 300px;
+}
+.pic4{
+    width: 300px;
+    height: 300px;
+}
+.pic{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,12 +1,8 @@
-body{
- 
-    background: linear-gradient(to right,#8dd0fc, #ddb4f6);
-}
 .mainh1{
     text-align: center;
 }
 .navbar{
-   background-color: linear-gradient(to right,#1A759F, #184E77);
+   background: linear-gradient(to right,#cfbecc, #301d31);
     height: 50px;
     display: flex;
     align-items: center;
@@ -26,37 +22,67 @@ body{
 }
 .navbar li a{
     text-decoration: none;
-    color:#634636;
+    color:#f7faf1;
     
 }
 
-
-.cloud{
-    height: 50px;
-    width: 150px;
-    background-color: #99D98C;
-    border-radius: 2rem;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 22px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    margin-left: 1600px;
-
-
+.image-container{
+    width: 90%vw;
+    height: 600px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background: linear-gradient(to right,#ebf4f5, #78e982);
+    
+   
+}
+.img{
+    width: 1000px;
+    height: 600px;
+    background-image: url("https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    position: absolute;
+    right: 10px;
+    border-radius: 10px;
+   
+   
+    
+}
+.msg{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
 
 
 }
+.msg p{
+    font-size: 50px;
+    padding-left: 10px;
+  
+   
+   
+}
+
+.about{
+    height: 800px;
+    background-color: #301d31;
+    margin-top: 1rem;
+}
+
+
+
+
 .para1{
-    font-size: larger;
+    font-size: x-large;
     margin-top: 1rem;
     color: #184E77;
-    
     text-wrap:pretty;
 }
 .subhead1{
 
     width: 50%;
-    text-decoration: underline;
+   
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     background-color:#76C893;
     padding: 1rem;
@@ -69,9 +95,7 @@ body{
     margin-top: 2rem;
     height: 400px;
 }
-.heading2-container{
-   
-}
+
 .subheading2{
     display: flex;
     margin-top: 2rem;
@@ -81,3 +105,14 @@ body{
    
 }
 
+
+.nextpagebtn{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: green;
+    margin-left: 700px;
+    margin-top: 350px;
+    text-align: center;
+   padding: 10px;
+}
