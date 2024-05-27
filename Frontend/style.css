@@ -65,10 +65,105 @@ flex-wrap: wrap;
 }
 
 .about{
-    height: 800px;
-    background-color: #301d31;
+    height: 600px;
+    display: flex;
     margin-top: 1rem;
+    background:linear-gradient(to right,#c8eec8, #d7ddd8); ;
+    padding: 10px;
+   
+    
 }
+
+
+.stresspic{
+    background-color:#76C893;
+    width: 700px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/31/12/25/work-1015501_640.jpg");
+    height: 600px;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.stressmsg{
+    
+    width:500px;
+    height: 600px;
+    padding: 8px;
+    margin-left: 300px;
+  
+    
+}
+#stressheading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.cc{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

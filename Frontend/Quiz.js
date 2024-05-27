@@ -23,13 +23,53 @@ const submitBtn=document.querySelector("#submit-btn");
     }
 
 
+ 
+    function getAllFormValues() {
+        // Select all forms
+        const forms = document.querySelectorAll('form');
+        const formData = {};
+    
+        // Iterate over each form
+        forms.forEach((form, index) => {
+            const inputs = form.querySelectorAll('input');
+            const formName = `form${index + 1}`;
+            formData[formName] = {};
+    
+            // Iterate over each input in the form
+            inputs.forEach(input => {
+                // Handle checkboxes and radio buttons
+                if ((input.type === 'checkbox' || input.type === 'radio') && !input.checked) {
+                    return; // Skip unchecked checkboxes and radio buttons
+                }
+                formData[formName][input.name] = input.value;
+            });
+        });
+        // Display collected data
+     let a=formData.form1.options
+     let b=formData.form2.options
+     let c=formData.form3.options
+  
+     console.log(a)
+     console.log(b)
+     console.log(c)
+
+
+     
+
+
+    }
+    
+
     submitBtn.addEventListener("click",()=>{
 
         
 
+ 
+       
+        getAllFormValues()
+   
+   })
 
-getSelectedColor()
-    
-    })
+
     
 
